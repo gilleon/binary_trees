@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * _binary_tree_height - helper func for binary_tree_height
+ * _binary_tree_height - helper function for binary_tree_height
  * @tree: input tree
  * Return: height of tree
  */
@@ -20,8 +20,8 @@ size_t _binary_tree_height(const binary_tree_t *tree)
 /**
  * binary_tree_balance - measures the balance factor of a binary tree
  * @tree: input tree
- * @min: minimum value of n
- * @max: maximum value of n
+ * @min: minimum value of node
+ * @max: maximum value of node
  * Return: balance factor of descendants
  */
 _Bool is_balanced_bst(const binary_tree_t *tree, int min, int max)
